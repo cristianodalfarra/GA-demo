@@ -11,7 +11,7 @@ ga_auth()
 ## get your accounts
 account_list <- google_analytics_account_list()
 #ga_id <- account_list[GA_ID,'viewId']
-## test
+
 
 ga_id <- 43015466
 
@@ -37,6 +37,7 @@ data_fetch <- google_analytics_4(ga_id,date_range = c("2016-11-28","2017-05-03")
                                  anti_sample_batches = 1)
 #slow_fetch = TRUE)
 
+## test forecast
 
 library(highcharter)
 library(googleAnalyticsR)
