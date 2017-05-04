@@ -34,7 +34,7 @@ data_fetch <- google_analytics_4(ga_id,date_range = c("2016-11-28","2017-05-03")
                                  dimensions = c("eventLabel","eventAction"),       # costant
                                  dim_filters = fc2,
                                  anti_sample = TRUE,
-                                 anti_sample_batches = 5)
+                                 anti_sample_batches = 10)
 #slow_fetch = TRUE)
 
 ## test forecast
